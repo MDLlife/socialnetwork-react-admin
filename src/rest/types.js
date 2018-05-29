@@ -1,0 +1,20 @@
+export const GET_LIST = 'GET_LIST';
+export const GET_MATCHING = 'GET_MATCHING';
+export const GET_DISTINCT = 'GET_DISTINCT';
+export const AUTO_LOGIN = 'AUTO_LOGIN';
+export const GET_ONE = 'GET_ONE';
+export const GET_MANY = 'GET_MANY';
+export const CREATE = 'CREATE';
+export const UPDATE = 'UPDATE';
+export const DELETE = 'DELETE';
+
+export const MODERATE = 'MODERATE';
+export const REPLY = 'REPLY';
+export const SPAM = 'SPAM';
+
+export const GET_DASHBOARD_TOTAL_CMT = "GET_DASHBOARD_TOTAL_CMT";
+export const GET_DASHBOARD_SENTIMENT_CMT = "GET_DASHBOARD_SENTIMENT_CMT";
+export const GET_DASHBOARD_GENDER_CMT = "GET_DASHBOARD_GENDER_CMT";
+export const GET_DASHBOARD_AGE_CMT = "GET_DASHBOARD_AGE_CMT";
+export const GET_DASHBOARD_BROWSER_CMT = "GET_DASHBOARD_BROWSER_CMT";
+export const GET_DASHBOARD_COUNTRY_CMT = "GET_DASHBOARD_COUNTRY_CMT";
