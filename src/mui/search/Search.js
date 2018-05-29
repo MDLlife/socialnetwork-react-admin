@@ -90,11 +90,11 @@ class Search extends Component {
                 searchOnLoad = true;
             }
 
-            const searchkit = new SearchkitManager("https://api.comentarismo.com/elk/_all", {
+            const searchkit = new SearchkitManager("https://api.mdl.com/elk/_all", {
                 searchOnLoad: searchOnLoad,
                 useHistory: true,
                 httpHeaders: {
-                    "COMENTARISMO-KEY": "HL3Q87OdXRXiun8LSyAy5vmCDJJCfyVrX97aIk_Ll2JcC0IG2yUpRoBOB7O6qRkDUAd6yQbD4gY="
+                    "MDL-KEY": "HL3Q87OdXRXiun8LSyAy5vmCDJJCfyVrX97aIk_Ll2JcC0IG2yUpRoBOB7O6qRkDUAd6yQbD4gY="
                 },
             });
             searcbox = <SearchkitProvider searchkit={searchkit}>

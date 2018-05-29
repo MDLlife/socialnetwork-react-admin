@@ -54,7 +54,7 @@ class Edit extends Component {
                 if (document.location.hostname.indexOf("localhost") !== -1) {
                     targetprefix = "http://localhost:3000"
                 } else {
-                    targetprefix = "https://api.comentarismo.com"
+                    targetprefix = "https://api.mdl.live"
                 }
 
                 request.open('POST', targetprefix + '/visit/' + this.props.resource + "/" + this.props.id + "/", true);
